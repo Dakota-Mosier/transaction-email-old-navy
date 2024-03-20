@@ -1,0 +1,751 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+            *  {
+                box-sizing: border-box;
+                font-family: helvetica, arial, sans-serif;
+            }     
+             @media only screen and (max-width: 480px) 
+            { *[class~=hide_on_mobile] 
+                { display: none !important;} 
+            }     
+
+            @media only screen and (max-width: 480px) {
+                .hide_on_mobile {
+                    display: none !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="white" >
+    <mj-wrapper>
+<mj-raw>
+    <!-- Header Section -->
+</mj-raw>
+    <mj-section css-class="header-notification hide_on_mobile" padding="20px 0 0">
+        <mj-column>
+            <mj-text align="center" padding="0">
+                <a href="https://oldnavy.gap.com/" target="_blank" style="text-decoration: none; color: #368be6;">Ship Notification & Receipt</a>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="header-logo" padding="10px 0 0">
+        <mj-column>
+            <mj-image src="https://i.postimg.cc/gkxBy1nT/oldnavy-large.png" href="https://oldnavy.gap.com/" target="_blank" alt="Old Navy logo" height="45px" width="138px" padding="0"/>
+        </mj-column>
+    </mj-section>
+    <mj-raw>
+        <!-- Navigation Section -->
+    </mj-raw>
+    <mj-section css-class="navigation hide_on_mobile" padding="10px 0 0">
+        <mj-column css-class="new-for-you">
+            <mj-image src="https://i.postimg.cc/HsSdnqFv/new-for-you.jpg" href="https://oldnavy.gap.com/" target="_blank" alt="new for you" padding="0" width="100px" height="25px"/>
+        </mj-column>
+        <mj-column css-class="women">
+            <mj-image src="https://i.postimg.cc/L59F6DDM/women.jpg" href="https://oldnavy.gap.com/" target="_blank" alt="women" padding="0" width="86px" height="25px"/>
+        </mj-column>
+        <mj-column css-class="maternity">
+            <mj-image src="https://i.postimg.cc/7hK8CztJ/maternity.jpg" href="https://oldnavy.gap.com/" target="_blank" alt="maternity" padding="0" width="92px" height="25px"/>
+        </mj-column>
+        <mj-column css-class="men">
+            <mj-image src="https://i.postimg.cc/Y9fwHZ13/men.jpg" href="https://oldnavy.gap.com/" target="_blank" alt="men" padding="0" width="66px" height="25px"/>
+        </mj-column>
+        <mj-column css-class="girls">
+            <mj-image src="https://i.postimg.cc/5tzVP6yD/girls.jpg" href="https://oldnavy.gap.com/" target="_blank" alt="girls" padding="0" width="72px" height="25px"/>
+        </mj-column>
+        <mj-column css-class="boys">
+            <mj-image src="https://i.postimg.cc/fLhh1D0y/boys.jpg" href="https://oldnavy.gap.com/" target="_blank" alt="boys" padding="0" width="70px" height="25px"/>
+        </mj-column>
+        <mj-column css-class="toddler">
+            <mj-image src="https://i.postimg.cc/y8tKXF1F/toddler.jpg" href="https://oldnavy.gap.com/" target="_blank" alt="toddler" padding="0" width="92px" height="25px"/>
+        </mj-column>
+        <mj-column css-class="baby">
+            <mj-image src="https://i.postimg.cc/FH7mLP4r/baby.jpg" href="https://oldnavy.gap.com/" target="_blank" alt="baby" padding="0" width="62px" height="25px"/>
+        </mj-column>
+    </mj-section>
+    <mj-raw>
+        <!-- Shipped Section -->
+    </mj-raw>
+    <mj-section css-class="shipped-banner" padding="10px 0">
+        <mj-column>
+            <mj-image src="https://i.postimg.cc/CL9rcJ8L/on-the-way.jpg" href="https://oldnavy.gap.com/" alt="rewards member banner" padding="0"/>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="shipped-notification" padding="5px 0 0">
+        <mj-group>
+            <mj-column css-class="left-column">
+                <mj-text align="left" font-size="18px" font-weight="bold" font-family="helvetica, arial, sans-serif">
+                    Ship Notification
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text align="right" font-family="helvetica, arial, sans-serif" font-size="14px">
+                <a href="https://oldnavy.gap.com/" style="text-decoration: none; color: #0466ca">1ABCDEF
+                </mj-text>
+            </mj-column>
+        </mj-group>
+    </mj-section>
+    <mj-section css-class="shipped-details" padding="0">
+    <mj-column>
+        <mj-text font-family="helvetica, arial, sans-serif" font-size="14px">
+            Hi Monica,
+        </mj-text>
+        <mj-text font-family="helvetica, arial, sans-serif" font-size="14px">
+            1 item has shipped. All items from this order have shipped.
+        </mj-text>
+    </mj-column>
+    </mj-section>
+    <mj-section css-class="shipped-img" padding="0">
+        <mj-column>
+            <mj-image src="https://i.postimg.cc/2jcKZC8W/delivered.png" href="https://oldnavy.gap.com/" alt="delivered image" width="290px" height="120px" padding="0"/>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="shipped-btn" padding="10px 0 10px">
+        <mj-column>
+            <mj-button href="https://oldnavy.gap.com/" width="290px" background-color="#000000" color="#ffffff" font-weight="bold" font-family="helvetica, arial, sans-serif" font-size="13px" border-radius="5px">
+                Track Package
+            </mj-button>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="shipped-footer" padding="20px 0">
+        <mj-column>
+            <mj-text align="center" padding="0" font-family="helvetica, arial, sans-serif" font-size="12px">
+                Use the email as your receipt when returning in store
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-raw>
+        <!-- Shipped item section -->
+    </mj-raw>
+    <mj-section css-class="items-shipped" border-top=".5px solid black">
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="20px" font-weight="bold">
+                Package 2 (1 of 5 items)
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="items-shipped__description" padding="0">
+        <mj-column>
+            <mj-image padding="0 25px" align="left" src="https://i.postimg.cc/0jBXR0Hn/oldnavy-small.jpg" alt="Old navy logo" width="35px" height="12px"/>
+            <mj-text padding="10px 25px 5px" font-family="helvetica, arial, sans-serif" font-size="14px" font-weight="bold">
+                Unisex Matching Print Pajama Set for Toddler & Baby
+            </mj-text>
+            <mj-text padding="0 25px 5px" font-family="helvetica, arial, sans-serif" font-size="12px">
+            4213720524000
+            </mj-text>
+            <mj-text padding="0 25px 5px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            <span style="text-decoration: line-through">Was $29.99</span><span style="color: #d00000;"> $14.99</span>
+            </mj-text>
+            <mj-text padding="0 25px 5px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            4T | Red Buffalo Plaid (Match the Fam)
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="item-shipped__total" padding="0">
+    <mj-group>
+        <mj-column>
+            <mj-text padding="0 25px 5px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            Promos
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text align="right" padding="0 25px 5px" font-family="helvetica, arial, sans-serif" font-size="14px" color="#d00000">
+            -$0.85
+            </mj-text>
+        </mj-column>
+    </mj-group>
+    </mj-section>
+    <mj-section css-class="item-shipped__total" padding="0 0 30px" border-bottom=".5px solid black">
+    <mj-group>
+        <mj-column>
+            <mj-text padding="0 25px 5px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            Quanity 1
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text align="right" padding="0 25px 5px" font-family="helvetica, arial, sans-serif" font-size="14px" font-weight="bold">
+            $14.14
+            </mj-text>
+        </mj-column>
+    </mj-group>
+    </mj-section>
+    <mj-raw>
+        <!-- Shipping information -->
+    </mj-raw>
+    <mj-section css-class="items-shipped">
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="20px" font-weight="bold">
+                Shipping Information
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="items-shipped__tracking" padding="0">
+        <mj-column width="100%">
+            <mj-table>
+                <tr>
+                    <td align="left" width="35">
+                        <img  padding="0 25px" align="left" src="https://i.postimg.cc/6pRjgRVV/usps.gif" alt="UPS logo" width="20px" height="23px"/>
+                    </td>
+                    <td align="left" style="font-family: helvetica, arial, sans-serif;">                   	
+                        UPS <a href="https://www.ups.com/" style="text-decoration: none; color: #0466ca; font-family: helvetica, arial, sans-serif;">92748902117364583179943727</a>
+                    </td>
+                </tr>
+            </mj-table>
+        </mj-column>
+    </mj-section>     
+    <mj-section css-class="items-shipped__address" padding="0">
+        <mj-column width="100%">
+            <mj-table>
+                <tr>
+                    <td align="left" valign="top" width="35">
+                        <img padding="0 25px" src="https://i.postimg.cc/HW4Zk0z1/gps.png" alt="GPS icon" width="20px" height="23px"/>
+                    </td>
+                    <td align="left" style="line-height: 1.5; font-family: helvetica, arial, sans-serif">                   	
+                        Jane Doe<br>11111 fake Cir, Nowhere, MT<br>00112-1234
+                    </td>
+                </tr>
+            </mj-table>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="items-shipped__package-total" padding="0">
+        <mj-column width="100%">
+            <mj-table>
+                <tr>
+                    <td align="left" valign="top" width="35">
+                        <img padding="0 25px" src="https://i.postimg.cc/4y5B2Zyx/package.png" alt="package icon" width="20px" height="23px"/>
+                    </td>
+                    <td align="left" style="line-height: 1.5; font-family: helvetica, arial, sans-serif;">                   	                       	
+                        Package total $15.38<br>
+                        Visa — XXXX ($15.38)
+                    </td>
+                </tr>
+            </mj-table>
+        </mj-column>
+    </mj-section>    
+    <mj-section css-class="items-shipped__footer" padding="10px 0 20px" border-bottom="1px solid black">
+        <mj-column>
+            <mj-text padding-bottom="0" font-family="helvetica, arial, sans-serif">
+                Package #2
+            </mj-text>
+            <mj-text padding="5px 25px">
+                Your card is charged per package as each package ships.
+            </mj-text>
+        </mj-column>
+    </mj-section>  
+    <mj-raw>
+        <!-- Summary Section -->
+    </mj-raw>
+    <mj-section css-class="summary__title" padding="15px 0 10px">
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="20px" font-weight="bold">
+                Summary of Charges
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="summary__package" padding="0">
+    <mj-group>
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="14px">
+                Package subtotal (1 item)
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text align="right" font-family="helvetica, arial, sans-serif" font-size="14px">
+                $14.99
+            </mj-text>
+        </mj-column>
+    </mj-group>
+    </mj-section>
+    <mj-section css-class="summary__promos" padding="0">
+    <mj-group>
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="14px">
+                Promos
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text align="right" font-family="helvetica, arial, sans-serif" font-size="14px" color="#d00000">
+                -$0.85
+            </mj-text>
+        </mj-column>
+    </mj-group>
+    </mj-section>
+    <mj-section css-class="summary__shipping" padding="0">
+    <mj-group>
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="14px">
+                Shipping (Standard Shipping)
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text align="right" font-family="helvetica, arial, sans-serif" font-size="14px">
+                $0.00
+            </mj-text>
+        </mj-column>
+    </mj-group>
+    </mj-section>
+    <mj-section css-class="summary__tax" padding="0">
+    <mj-group>
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="14px">
+                Tax
+            </mj-text>
+        </mj-column>
+        <mj-column >
+            <mj-text align="right" font-family="helvetica, arial, sans-serif" font-size="14px">
+                $1.24
+            </mj-text>
+        </mj-column>
+    </mj-group>
+    </mj-section>
+    <mj-section css-class="shipping__underline" padding="0">
+        <mj-column>
+            <mj-table>
+            <tr>
+                <td style="border-bottom: 1px #dbdbdb solid;" >
+                </td>
+            </tr>
+        </mj-table>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="summary__total" padding="0 0 20px">
+    <mj-group>
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="14px">
+                Package total
+            </mj-text>
+        </mj-column>
+        <mj-column >
+            <mj-text align="right" font-family="helvetica, arial, sans-serif" font-size="14px">
+                $15.38
+            </mj-text>
+        </mj-column>
+    </mj-group>
+    </mj-section>
+    <mj-raw>
+        <!-- Already Shipped section -->
+    </mj-raw>
+    <mj-section css-class="already-shipped__title" border-top=".5px solid black" padding-bottom="0">
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="20px" font-weight="bold" padding-bottom="0">
+                Already Shipped Items
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="already-shipped__track">
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="14px" padding-top="0" font-weight="bold">
+                <a href="https://www.ups.com/" style="text-decoration: none; color: #0466ca">Track</a> Package 1
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="already-shipped__item-1" padding="0">
+        <mj-column>
+            <mj-image padding="0 25px" align="left" src="https://i.postimg.cc/0jBXR0Hn/oldnavy-small.jpg" alt="Old navy logo" width="35px" height="12px"/>
+            <mj-text padding="10px 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px" font-weight="bold">
+                Unisex Matching Print Pajama Set for Toddler & Baby
+            </mj-text>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="12px">
+            8117060025000
+            </mj-text>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            $14.99
+            </mj-text>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            5T | Ladybug
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="item-shipped__total" padding="0">
+    <mj-group>
+        <mj-column>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            Promos
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text align="right" padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px" color="#d00000">
+            -$5.09
+            </mj-text>
+        </mj-column>
+    </mj-group>
+    </mj-section>
+    <mj-section css-class="item-shipped__total" padding="0 0 30px">
+    <mj-group>
+        <mj-column>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            Quanity 1
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text align="right" padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px" font-weight="bold">
+            $9.90
+            </mj-text>
+        </mj-column>
+    </mj-group>
+    </mj-section>
+    <mj-section css-class="already-shipped__item-2" padding="0">
+        <mj-column>
+            <mj-image padding="0 25px" align="left" src="https://i.postimg.cc/0jBXR0Hn/oldnavy-small.jpg" alt="Old navy logo" width="35px" height="12px"/>
+            <mj-text padding="10px 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px" font-weight="bold">
+                Unisex Matching Print Pajama Set for Toddler & Baby
+            </mj-text>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="12px">
+            8117140025000
+            </mj-text>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            <span style="text-decoration: line-through">Was $14.99</span><span style="color: #d00000;"> $7.49</span>
+            </mj-text>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            5T | Dinosaurs
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="item-shipped__total" padding="0">
+    <mj-group>
+        <mj-column>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            Promos
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text align="right" padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px" color="#d00000">
+            -$0.42
+            </mj-text>
+        </mj-column>
+    </mj-group>
+    </mj-section>
+    <mj-section css-class="item-shipped__total" padding="0 0 30px">
+    <mj-group>
+        <mj-column>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            Quanity 1
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text align="right" padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px" font-weight="bold">
+            $7.07
+            </mj-text>
+        </mj-column>
+    </mj-group>
+    </mj-section>
+    <mj-section css-class="already-shipped__item-3" padding="0">
+        <mj-column>
+            <mj-image padding="0 25px" align="left" src="https://i.postimg.cc/0jBXR0Hn/oldnavy-small.jpg" alt="Old navy logo" width="35px" height="12px"/>
+            <mj-text padding="10px 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px" font-weight="bold">
+                Matching Flannel Pajama Pants for Men
+            </mj-text>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="12px">
+            7259390220204
+            </mj-text>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            <span style="text-decoration: line-through">Was $26.99</span><span style="color: #d00000;"> $10.00</span>
+            </mj-text>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            M Tall | Red Buffalo Plaid (Match the Fam)
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="item-shipped__total" padding="0">
+    <mj-group>
+        <mj-column>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            Promos
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text align="right" padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px" color="#d00000">
+            -$0.57
+            </mj-text>
+        </mj-column>
+    </mj-group>
+    </mj-section>
+    <mj-section css-class="item-shipped__total" padding="0 0 30px">
+    <mj-group>
+        <mj-column>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            Quanity 1
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text align="right" padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px" font-weight="bold">
+            $9.43
+            </mj-text>
+        </mj-column>
+    </mj-group>
+    </mj-section>
+    <mj-section css-class="already-shipped__item-4" padding="0">
+        <mj-column>
+            <mj-image padding="0 25px" align="left" src="https://i.postimg.cc/0jBXR0Hn/oldnavy-small.jpg" alt="Old navy logo" width="35px" height="12px"/>
+            <mj-text padding="10px 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px" font-weight="bold">
+                Mid-Rise Flannel Pajama Pants for Women
+            </mj-text>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="12px">
+            7410850420001
+            </mj-text>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            <span style="text-decoration: line-through">Was $24.99</span><span style="color: #d00000;"> $10.00</span>
+            </mj-text>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            S | Red Buffalo Plaid (Match the Fam)
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="item-shipped__total" padding="0">
+    <mj-group>
+        <mj-column>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            Promos
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text align="right" padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px" color="#d00000">
+            -$0.57
+            </mj-text>
+        </mj-column>
+    </mj-group>
+    </mj-section>
+    <mj-section css-class="item-shipped__total" padding="0 0 30px">
+    <mj-group>
+        <mj-column>
+            <mj-text padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px">
+            Quanity 1
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text align="right" padding="0 25px 10px" font-family="helvetica, arial, sans-serif" font-size="14px" font-weight="bold">
+            $9.43
+            </mj-text>
+        </mj-column>
+    </mj-group>
+    </mj-section>
+    <mj-raw>
+        <!-- Helpful Section -->
+    </mj-raw>
+    <mj-section css-class="helpful__title" border-top=".5px solid black" padding-bottom="0">
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="20px" font-weight="bold" padding="10px 25px 0">
+                Helpful Information
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="already-shipped__in-store" padding-bottom="0">
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="14px" padding="0px 25px">
+                <span style="font-weight: bold">Returning in store?</span> Bring this email as your receipt. Or bring the credit card for this purchase.
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="already-shipped__by-mail" padding-bottom="0">
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="14px" padding="0px 25px">
+                <span style="font-weight: bold">Returning in store?</span> Go to <a href="https://oldnavy.gap.com/" style="text-decoration: none; color: #0446ca">Order Details</a> to  print a free return label.
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="already-shipped__faqs" padding-bottom="0">
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="14px" padding="0px 25px">
+                See all <span style="font-weight: bold">FAQs</span> about <a href="https://oldnavy.gap.com/" style="text-decoration: none; color: #0446ca">orders and returns</a> including uniform specific policies.
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="already-shipped__support" padding-bottom="0">
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="14px" padding="0px 25px">
+                <span style="font-weight: bold">Customer Support</span> Daily, 7 am to 1 am ET
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="already-shipped__phone" padding="10px 0">
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="14px" padding="0px 25px">
+                1-800-OLD-NAVY (1-800-653-6289)
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section padding="10px">
+        <mj-column>
+            <mj-button href="https://oldnavy.gap.com/" width="280px" height="43px" padding="0 0 20px" background-color="#ffffff" font-family="helvetica, arial, sans-serif" font-size="14px" color="#000000" border="2px solid #000000" border-radius="5px">
+                VIEW ORDER DETAILS
+            </mj-button>
+        </mj-column>
+    </mj-section>
+    <mj-raw>
+        <!-- Return Barcode Section -->
+    </mj-raw>
+    <mj-section css-class="return-barcode__title" border-top=".5px solid black" padding="20px 0 10px">
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="20px" font-weight="bold" padding="10px 25px 0">
+                Return Barcode
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="return-barcode__in-store" padding="5px 0">
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="14px" padding="0px 25px">
+                For in-store returns
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="return-barcode__package-1" padding="10px 0">
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="12px" padding="0px 25px">
+                <span style="font-weight: bold;">Package 1</span> RMA number
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="return-barcode__package-1" padding="5px 0 ">
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="10px" padding="0px 25px">
+                000028060450202312066482
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="return-barcode__package-1" padding="5px 0 ">
+        <mj-column>
+            <mj-image src="https://i.postimg.cc/nzTwTJ46/barcode1.png" alt="barcode" align="left" width="290px"/>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="return-barcode__package-2" padding="15px 0">
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="12px" padding="0px 25px">
+                <span style="font-weight: bold;">Package 2</span> RMA number
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="return-barcode__package-2" padding="5px 0 ">
+        <mj-column>
+            <mj-text font-family="helvetica, arial, sans-serif" font-size="10px" padding="0px 25px">
+                000028060452202312069417
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="return-barcode__package-2" padding="5px 0 ">
+        <mj-column>
+            <mj-image src="https://i.postimg.cc/RZnym2mH/barcode2.png" alt="barcode" align="left" width="290px"/>
+        </mj-column>
+    </mj-section>
+    <mj-raw>
+        <!-- While You Wait Section -->
+    </mj-raw>
+    <mj-section css-class="wait__title"  padding="10px 0 0px">
+        <mj-column>
+            <mj-image href="https://oldnavy.gap.com/" src="https://i.postimg.cc/6QJSpz61/wait.png" alt="while you wait" padding-bottom="0"/>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="wait__row-1"  padding="0 15px">
+        <mj-group css-class="wait-r1g1">
+            <mj-column>
+                <mj-image href="https://oldnavy.gap.com/" src="https://i.postimg.cc/fbcPtXJW/pink-pjs.jpg" alt="so eggs hausted pjs" width="151px" height="330px" padding="10px 5px"/>
+            </mj-column>
+            <mj-column>
+                <mj-image href="https://oldnavy.gap.com/" src="https://i.postimg.cc/D0ZpMM5m/sleep-monster.jpg" alt="sleep monster pjs" width="151px" height="330px" padding="10px 5px"/>
+            </mj-column>
+        </mj-group>
+        <mj-group css-class="wait-r1g2">
+            <mj-column >
+                <mj-image href="https://oldnavy.gap.com/" src="https://i.postimg.cc/zBqcnBgC/abc-pjs.jpg" alt="alphabet pjs" width="151px" height="330px" padding="10px 5px"/>
+            </mj-column>
+            <mj-column>
+                <mj-image href="https://oldnavy.gap.com/" src="https://i.postimg.cc/VLhp3mxw/dino-pjs.jpg" alt="dinosaur pjs" width="151px" height="330px" padding="10px 5px"/>
+            </mj-column>
+        </mj-group>
+    </mj-section>
+    <mj-section css-class="wait__row-2"  padding="0 15px">
+        <mj-group css-class="wait-r2g1">
+            <mj-column>
+                <mj-image href="https://oldnavy.gap.com/" src="https://i.postimg.cc/m2kKXt6V/thermal-pjs.jpg" alt="thermal pjs" width="151px" height="330px" padding="10px 5px"/>
+            </mj-column>
+            <mj-column>
+                <mj-image href="https://oldnavy.gap.com/" src="https://i.postimg.cc/66YDfdzy/light-dino-pjs.jpg" alt="white/pink dino pjs" width="151px" height="330px" padding="10px 5px"/>
+            </mj-column>
+        </mj-group>
+        <mj-group css-class="wait-r2g2">
+            <mj-column >
+                <mj-image href="https://oldnavy.gap.com/" src="https://i.postimg.cc/WzWCpvtM/trex-pjs.jpg" alt="T-rex pjs" width="151px" height="330px" padding="10px 5px"/>
+            </mj-column>
+            <mj-column>
+                <mj-image href="https://oldnavy.gap.com/" src="https://i.postimg.cc/1X5bZtRm/zipup-pjs.jpg" alt="zip up pjs" width="151px" height="330px" padding="10px 5px"/>
+            </mj-column>
+        </mj-group>
+    </mj-section>
+    <mj-section css-class="wait__btn" padding="0 0 35px 0">
+        <mj-column>
+            <mj-image href="https://oldnavy.gap.com/" src="https://i.postimg.cc/3RZz6pTf/shopnow-btn.png" alt="Shop now button" width="500px" height="59px"/>
+        </mj-column>
+    </mj-section>
+    <mj-raw>
+        <!-- options sectioon -->
+    </mj-raw>
+        <mj-section css-class="options__heading" padding="0">
+            
+                
+            
+            <mj-column>
+                <mj-image src="https://i.postimg.cc/Ss4wDdwz/worry-free.jpg" alt="fast and worry free" width="640px" height="40px" padding="0 5px 0 0"/>
+            </mj-column>
+        </mj-section>
+        <mj-section css-class="options_3-column" padding="0">
+        <mj-group>
+            <mj-column>
+                <mj-image src="https://i.postimg.cc/DzL9rHYT/pickup.jpg" alt="in store pickup" width="200px" height="126px" padding="0 0 0 0px"/>
+            </mj-column>
+            <mj-column>
+                <mj-image src="https://i.postimg.cc/Nj3hrBDD/exchanges.jpg" alt="returns & exchanges" width="232px" height="126px" padding="0"/>
+            </mj-column>
+            <mj-column>
+                <mj-image src="https://i.postimg.cc/zXPY8nR9/interest-free.jpg" alt="interest free" align="left" width="195px" height="126px" padding="0 0 0 0"/>
+            </mj-column>
+            </mj-group>
+        </mj-section>   
+        <mj-section css-class="options__footer" padding="0 0px">
+        <mj-group>
+            <mj-column>
+                <mj-image align="left" href="https://oldnavy.gap.com/" src="https://i.postimg.cc/c4JGpD6R/app.jpg" alt="download the app" padding="0" width="320px"/>
+            </mj-column>       
+            <mj-column>
+                <mj-image align="right" href="https://oldnavy.gap.com/" src="https://i.postimg.cc/P5psxPWN/find-store.jpg" alt="find your store" padding="0 5px 0 0" width="327px"/>
+            </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-raw>
+            <!-- Brands Section -->
+        </mj-raw>
+        <mj-section css-class="brands__img" padding="0 5px 0 0">
+            <mj-column>
+                <mj-image src="https://i.postimg.cc/MZ58rkZZ/brands.png" alt="4 brands 1 easy checkout" padding="0"/>
+            </mj-column>
+        </mj-section>
+        <mj-raw>
+            <!-- Footer Section -->
+        </mj-raw>
+        <mj-section css-class="footer__links" padding="20px 0 20px">
+            <mj-column>
+                <mj-text align="center" color="#368be6" font-family="helvetica, arial, sans-serif" font-size="12px" padding="0">
+                    <a href="https://oldnavy.gap.com/" style="text-decoration: none; color: #368be6;">Privacy Policy</a> <span style="padding: 0 15px;">|</span> <a href="https://oldnavy.gap.com/" style="text-decoration: none; color: #368be6;">Navyist Rewards Card Program</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section css-class="footer__text" padding="10px 0">
+            <mj-column>
+                <mj-text font-size="12px" color="#595959">
+                    This email contains information regarding your transaction at Old Navy. You can unsubscribe from marketing emails by clicking "<a href="https://oldnavy.gap.com/" style="font-size: 12px; color: #777777;">Unsubscribe</a>." You will continue to receive transactional and account-related emails. Please see our <a href="https://oldnavy.gap.com/" style="font-size: 12px; color: #777777;">Rewards Program Terms</a> for details on how to manage your membership. If you have any questions, contact Old Navy’s <a href="https://oldnavy.gap.com/" style="font-size: 12px; color: #777777;">Customer Service</a> Page or call us at 1-800-OLD-NAVY (1-800-653-6289). You may also contact us by postal mail at Old Navy Customer Services, 6007 Greene Pointe Drive, Groveport OH 43125.<br><br>
+
+                    © 2024 Gap Inc.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-wrapper>
+</mj-body>
+
+
+
+
+
+
+
+
+
+
+</mjml>
